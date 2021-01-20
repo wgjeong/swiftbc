@@ -123,7 +123,7 @@ public final class SwiftBcTest {
                     , "TEST"
                     , "EMPTY"
                     , "2"));
-            assertEquals(thrown.getMessage(), "The PaymentOrder BC1TEST already exists");
+            assertEquals(thrown.getMessage(), "The Payment Order (BC1TEST) already exists");
 
         }
 

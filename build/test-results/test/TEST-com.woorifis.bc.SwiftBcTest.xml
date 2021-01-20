@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.woorifis.bc.SwiftBcTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-20T02:51:37" hostname="DESKTOP-JA0UQS4" time="0.487">
+  <properties/>
+  <testcase name="assetRead()" classname="com.woorifis.bc.SwiftBcTest" time="0.487"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -14,7 +14,7 @@ public class PaymentOrder {
     @Property()
     private String date;                    // 일자
     @Property()
-    private BigDecimal amount;              // 금액
+    private String amount;                  // 금액
     @Property()
     private String currency;                // 통화
     @Property()
@@ -39,7 +39,7 @@ public class PaymentOrder {
     public PaymentOrder(String swiftCode, String date, String amount, String currency, String ordererName, String ordererAddress, String ordererId, String receiverAccount, String receiverName, String receiverAddress, String remittanceInformation, String additionalInstruction, String chargeDetail) {
         this.swiftCode = swiftCode;
         this.date = date;
-        this.amount = new BigDecimal(amount);
+        this.amount = amount;
         this.currency = currency;
         this.ordererName = ordererName;
         this.ordererAddress = ordererAddress;
@@ -73,10 +73,10 @@ public class PaymentOrder {
     public void setDate(String date) {
         this.date = date;
     }
-    public BigDecimal getAmount() {
+    public String getAmount() {
         return amount;
     }
-    public void setAmount(BigDecimal amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
     public String getCurrency() {
